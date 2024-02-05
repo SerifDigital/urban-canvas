@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768.5 83">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: LondrinaSolid-Black, 'Londrina Solid';
+        font-weight: 800;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: LondrinaOutline-Regular, 'Londrina Outline';
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        font-size: 93.52px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-7" transform="translate(.47 74.4)"><tspan class="cls-2" x="0" y="0">UR</tspan><tspan class="cls-6" x="95.67" y="0">B</tspan><tspan class="cls-2" x="140.1" y="0">AN </tspan><tspan class="cls-3" x="245.96" y="0">C</tspan><tspan class="cls-2" x="290.85" y="0">AN</tspan><tspan class="cls-5" x="378.01" y="0">V</tspan><tspan class="cls-4" x="416.45" y="0">A</tspan><tspan class="cls-2" x="456.29" y="0">S:</tspan><tspan class="cls-1" x="520.82" y="0" xml:space="preserve"> PERTH</tspan></text>
+</svg>

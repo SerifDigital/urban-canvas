@@ -1,0 +1,39 @@
+:root {
+	--off-white-cream-bg: FAF9F6;
+	--off-black: 242424;
+	--brown: AF734A;
+	--light-grey: D7DEEA;
+
+	--fs-sm: 1rem;
+	--fs-normal: 1.125rem;
+	--fs-lg: 24px;
+	--fs-xl: 36px;
+
+	--fw-light: 200;
+	--fw-normal: 400;
+	--fw-sbold: 600;
+	--fw-bold: 700;
+	--fw-xbold: 900;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
