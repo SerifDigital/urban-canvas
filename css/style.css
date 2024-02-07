@@ -14,6 +14,9 @@
 	--fw-sbold: 600;
 	--fw-bold: 700;
 	--fw-xbold: 900;
+
+	--ff-headings: "Londrina Solid", sans-serif;
+	--ff-p: "Poppins", sans-serif;
 }
 
 * {
@@ -23,7 +26,7 @@
 }
 
 html {
-	font-family: "Poppins", sans-serif;
+	font-family: var(--ff-p);
 }
 
 body {
@@ -100,30 +103,43 @@ body {
 .blog-card-wrapper {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-
 	grid-gap: 20px;
 }
 
 .card {
 	background-color: rgb(127, 167, 202);
 	display: flex;
-	height: 250px;
+	height: 280px;
+	border-radius: 4px;
 }
 
 .card__right {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	padding: 16px 20px 10px 16px;
 }
 
+.card__text {
+	margin-bottom: 10px;
+}
+
+.card__text h2 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: var(--ff-headings);
+}
+
 .card__text p {
+	font-size: var(--fs-sm);
 }
 .card-footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
+	border-top: 1px solid black;
+	padding-top: 5px;
 }
 
 .card-footer__avatar {
@@ -143,6 +159,10 @@ body {
 .card_footer__readers img {
 	width: 11px;
 }
+
+.card_footer__readers p {
+	margin-left: 10px;
+}
 .hr-1 {
 	margin: 50px auto;
 }
@@ -160,13 +180,14 @@ body {
 
 	.card {
 		flex-direction: column;
-		border-radius: 4px;
+		width: auto;
 	}
 
 	.card__img {
 		border-radius: 0;
 		border-radius: 4px;
-		width: auto;
+
+		height: auto;
 	}
 
 	.card__right {
