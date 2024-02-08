@@ -17,6 +17,8 @@
 
 	--ff-headings: "Londrina Solid", sans-serif;
 	--ff-p: "Poppins", sans-serif;
+
+	--ff-main: "Roboto", sans-serif;
 }
 
 * {
@@ -26,7 +28,7 @@
 }
 
 html {
-	font-family: var(--ff-p);
+	font-family: var(--ff-main);
 }
 
 body {
@@ -131,7 +133,7 @@ body {
 	margin-bottom: 10px;
 }
 .text__content p {
-	font-family: var(--ff-p);
+	font-family: var(--ff-main);
 	font-size: var(--fs-sm);
 	letter-spacing: 1.2px;
 	margin-bottom: 15px;
@@ -200,19 +202,31 @@ body {
 /* footer */
 
 footer {
-	text-align: center;
+	display: flex;
+	justify-content: space-between;
 }
 
 .text__footer-left {
 	display: flex;
 }
 
-footer > img {
+.footer-left {
+	display: flex;
+	gap: 20px;
+}
+
+.footer-left img {
 	width: 250px;
 }
 
 footer nav {
 	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+
+.footer nav a {
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 950px) {
