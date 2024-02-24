@@ -204,6 +204,9 @@ body {
 footer {
 	display: flex;
 	justify-content: space-between;
+	min-height: 150px;
+	border: solid 2px limegreen;
+	align-items: center;
 }
 
 .text__footer-left {
@@ -215,18 +218,26 @@ footer {
 	gap: 20px;
 }
 
-.footer-left img {
-	width: 250px;
+.sd-logo {
+	width: 75px;
 }
 
 footer nav {
 	display: flex;
 	list-style: none;
-	gap: 20px;
+	align-items: center;
+	gap: 15px;
 }
 
-.footer nav a {
+footer nav a {
 	text-decoration: none;
+	display: inline-block;
+	color: var(--off-black);
+	transition: 0.2s ease;
+}
+
+footer nav a:hover {
+	color: #af734a;
 }
 
 @media only screen and (max-width: 950px) {
