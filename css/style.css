@@ -78,7 +78,7 @@ body {
 /* Hero text */
 
 .hero-text-wrapper {
-	width: 500px;
+	max-width: 500px;
 	margin-bottom: 70px;
 	margin-top: 62px;
 }
@@ -98,6 +98,7 @@ body {
 .hero-image {
 	width: 100%;
 	margin-bottom: 100px;
+	border-radius: 3px;
 }
 
 /* Card Blog Grid */
@@ -239,6 +240,7 @@ body {
 
 .grid img {
 	width: 100%;
+	border-radius: 3px;
 }
 
 /* footer */
@@ -292,5 +294,32 @@ footer nav a:hover {
 @media only screen and (max-width: 550px) {
 	.card {
 		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 485px) {
+	.main-nav ul {
+		/* flex-direction: column; */
+		gap: 40px;
+	}
+
+	#image-overlap {
+		margin-top: -125px;
+		width: 50%;
+	}
+
+	.hr-1 {
+		margin-bottom: 85px;
+	}
+
+	.grid-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		margin-top: 50px;
+		flex-direction: column;
+		padding-bottom: 50px;
 	}
 }
