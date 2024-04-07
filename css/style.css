@@ -42,7 +42,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 50px;
 	/* position: sticky;
 	top: 0;
 	width: 100%;
@@ -106,8 +106,6 @@ body {
 	display: grid;
 	gap: 20px;
 	grid-template-columns: repeat(2, 1fr);
-	margin-top: 50px;
-	margin-bottom: 100px;
 }
 
 .card {
@@ -162,11 +160,12 @@ body {
 }
 
 .hr-1 {
-	margin: 50px auto;
+	margin: 50px;
 }
 .banner-image {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 50px;
 }
 
 #middle-banner-img {
@@ -269,7 +268,7 @@ footer nav {
 	display: flex;
 	list-style: none;
 	align-items: center;
-	gap: 15px;
+	gap: 30px;
 	margin-left: 50px;
 }
 
